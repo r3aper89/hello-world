@@ -6,7 +6,12 @@
 </template>
 
 <script setup>
-    const { } = useRoute().params
+const { } = useRoute().params
+
+definePageMeta({
+    layout: 'products'
+})
+
 </script>
 
 <style scoped>
